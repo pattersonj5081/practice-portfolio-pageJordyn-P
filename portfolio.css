@@ -1,0 +1,132 @@
+body{
+    background-color: lightgreen;
+}
+header {
+    display:flex;
+    position: sticky;
+    background-color: lightpink;
+    width: 50%;
+    height: 500px;
+    padding: 20px;
+    border: 10px dotted darkgreen;
+    margin: auto;
+}
+.header-image{
+        display:flex;
+        justify-content:flex-end;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+        margin: 0;
+        width: 100%;  
+        height: auto;
+    }
+
+ h1,h2,h3 {
+    text-align: center;
+    font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 
+                 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+}
+
+h1 {
+    font-size: 50px;   
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 30px;
+}
+
+p.about-me-text {
+    background-color: hotpink;
+    width: 1280px;
+    height: 200px;
+    padding: 20px;
+    border: 10px solid darkgreen;
+    margin: auto;
+    text-align: center;
+    font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 
+                 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+    font-size: 20px;
+}
+
+.about-me {
+    width: 1280px;
+    line-height: 30px;
+    margin: auto;
+}
+.padding{
+    width:100%;
+    padding:20px;  
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    border: 10px solid darkgreen;
+    margin: auto;
+    width: 1280px;
+    height: auto;
+    background-color: pink;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove{
+    0%   {background-color:pink;}
+    25%  {background-color: hotpink;}
+    50%  {background-color: pink;}
+    100% {background-color: lightpink;}
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    width: 1280px;
+    margin:auto;
+    font-size: x-large;
+    background-color: greenyellow;
+    border: 10px solid hotpink;
+}
+tr{
+    background-color: pink;
+   
+}
+
+
+.album-link{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    padding:20px;
+    margin:auto;
+    background-color: pink;
+    animation: mymove 5s infinite;
+    border: 10px solid darkgreen;
+}
+@keyframes mymove{
+    0%   {background-color:pink;}
+    25%  {background-color: hotpink;}
+    50%  {background-color: pink;}
+    100% {background-color: lightpink;}
+}
+a{
+    color:black       
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    background-color: pink;
+    border: 10px solid darkgreen;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin:auto
+}

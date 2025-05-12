@@ -1,73 +1,102 @@
-<html><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jordyn Patterson Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
 </head>
-
-  <section>
-    <header><h1>Jordyn Patterson</h1>
-    <h2>"Full-stack firepower. Front-end finesse."</h2>
-    </header>
-  </section>
-
 <body>
 
-    <section>
-        <h3>A bit About Me:</h3>
-        <p>I'm a lifelong learner and creative professional with a passion for accessibility and inclusive design. I studied vocal performance for two years at Webster University and continue to perform as a professional singer. Currently, I'm expanding my technical skills through full-stack developer training with the nonprofit LaunchCode, building on my foundation in UI/UX to create impactful digital experiences. I also work at a plant nursery, and in my free time, I enjoy crafting—especially painting and jewelry making. My brindle pitbull, Tango, is my whole world. I bring curiosity, empathy, and creativity to everything I do. I hope I can be an asset to your project or company! </p>
-    </section>
- 
+    <header>
+        <div class = "header-text">
+        <h1>Jordyn Patterson</h1>
+        <h2>"Full-stack firepower. Front-end finesse."</h2>
+        </div>
+        <div class="header-image">
+        <img src="Images/IMG_5931.jpg" alt="Me" width="300" height="400">
+    </div>
+    </header>
+
+    <div class="about-me">
+        <h3>A Bit About Me:</h3>
+        <p class="about-me-text">
+            I'm a lifelong learner and creative professional with a passion for accessibility and inclusive design.
+            I studied vocal performance for two years at Webster University and continue to perform as a professional singer.
+            Currently, I'm expanding my technical skills through full-stack developer training with the nonprofit LaunchCode,
+            building on my foundation in UI/UX to create impactful digital experiences. I also work at a plant nursery, and in my free time,
+            I enjoy crafting—especially painting and jewelry making. My brindle pitbull, Tango, is my whole world.
+            I bring curiosity, empathy, and creativity to everything I do. I hope I can be an asset to your project or company!
+        </p>
+    </div>
+
+    <div class= padding></div> 
+
+    <h3>Gallery:</h3>
+
+    <div class="gallery">
+        <img src="Images/IMG_7515.jpg" alt="Me and My Pup" width="200" height="300">
+        <img src="Images/0.jpg" alt="Me working in the nursery" width="200" height="300">
+        <img src="Images/IMG_5620.jpg" alt="Me after a gig" width="400" height="300">
+    </div>
+
+    <div class= padding></div>
+
+    <h3>Skills:</h3>
 
     <section>
-        <table>
+        <table class="skills" border = 1>
             <tr>
-                <th>Skill&nbsp;</th>
-                <th>&nbsp;Proficiency Level &nbsp;</th>
+                <th>Skill</th>
+                <th>Proficiency Level</th>
             </tr>
             <tr>
-                <td>Singing</td> 
-                <td>&nbsp; Expert</td>
-            </tr> 
+                <td>Singing</td>
+                <td>Expert</td>
+            </tr>
             <tr>
-                <td>UI/UX</td> 
-                <td>&nbsp; Proficient</td>
-            </tr> 
-            <tr>   
+                <td>UI/UX</td>
+                <td>Proficient</td>
+            </tr>
+            <tr>
                 <td>Gardening</td>
-                <td>&nbsp; Somewhat Proficient</td>
+                <td>Somewhat Proficient</td>
             </tr>
-                <td>Dog Scratches&nbsp; </td>
-                <td>&nbsp; Expert</td>
+            <tr>
+                <td>Dog Scratches</td>
+                <td>Expert</td>
             </tr>
         </table>
     </section>
+     
+    
+    <div class= padding></div> 
 
+    <div class="album-link">
+    <a  href="//open.spotify.com/album/2CKXkRVVBrAMbI9A36xPkdsi=y-2E2AEBTnS7cSxOXeBh8A"
+    ><img src = "Images/album art.jpg" alt="album art"><h2>Listen to my Music!</h2></a>
+    </div>
 
+    <div class= padding></div>
+    <div class= padding></div>
 
     <footer>
+        
+    <h3>Let's Keep in Touch!</h3>
 
-
-        <section>
-            <form>
-                 <p>Name:&nbsp;<input type="text"></p>
-                 <p>Email:&nbsp;<input type="email"></p>
-                 &nbsp;<textarea>&nbsp;Message:</textarea>
+        <div class="form">
+            <form id="contact-form">
+                <p>Name: <input type="text" name="name"></p>
+                <p>Email: <input type="email" name="email"></p>
+                <p>Message:<br><textarea name="message" rows="10"cols="60"></textarea></p>
             </form>
-        </section>
-        
-        <section>
-        <img src="Images/IMG_7515.jpg" alt="Me and My Pup" width="200" height="300" />
-        <img src="Images/IMG_5931.jpg" alt="Me" width="200" height="300" />
-        <img src="Images/IMG_1455.jpg" alt="Me and My Pup" width="200" height="300" />
-        <img src="Images/IMG_5620.jpg" alt="Me after a gig" width="400" height="300" />
-        <img src="Images/0.jpg" alt="Me working in the nursery" width="200" height="300" />
-       </section>
-        
-    <a href="https://open.spotify.com/album/2CKXkRVVBrAMbI9A36xPkd?si=tMo6GFkxRWSb7r6OBxtrKg">Click here to listen to my music!</a>
+        </div>
 
+         <div class= padding></div>
+
+         <p class="copyright">Copyright &#169; 2025 MyWebsite</p>
+         
     </footer>
-    
+
 </body>
-</html></html>
+</html>
